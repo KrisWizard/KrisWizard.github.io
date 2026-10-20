@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Krister Prestøy: Unreal Gameplay &amp; Systems Designer</title>
+  <meta name="description" content="Krister Prestøy, an Unreal gameplay and systems designer who can also model. Based in Bergen, Norway.">
+  <meta property="og:title" content="Krister Prestøy: Unreal Gameplay &amp; Systems Designer">
+  <meta property="og:description" content="Unreal gameplay &amp; systems designer who can also model. Bergen, Norway.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0c0d12">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="top">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="Krister Prestøy, back to top">KP<span>.</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav aria-label="Primary">
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#art">3D Art</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Bergen, Norway · Open to work</p>
+      <h1>Krister Prestøy</h1>
+      <p class="tagline">Unreal gameplay &amp; systems designer <em>who can also model.</em></p>
+      <p class="lede">I build combat, AI and UI systems in Unreal Engine 5, and I model and texture the assets that go with them. I'm looking for junior gameplay programmer/designer, technical designer, generalist and 3D roles, remote or in Bergen.</p>
+      <div class="btns">
+        <!-- TODO: replace href="#" with the CV PDF, e.g. href="cv/Krister-Prestoy-CV.pdf" -->
+        <a class="btn btn-primary" href="#" data-todo="cv">CV</a>
+        <a class="btn" href="https://www.linkedin.com/in/krister-prestoy" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://kriswiz.artstation.com" target="_blank" rel="noopener">ArtStation</a>
+        <a class="btn" href="https://www.youtube.com/@KrisWizard" target="_blank" rel="noopener">YouTube</a>
+        <a class="btn" href="https://github.com/KrisWizard" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section id="featured" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Featured project</p>
+      <h2>Winds of Valor</h2>
+      <p class="meta">Teesside University · BA Games Design final project · <strong>First Class Honours</strong> · 2025</p>
+
+      <div class="video">
+        <iframe src="https://www.youtube-nocookie.com/embed/_OFNOvtgY2M" title="Winds of Valor gameplay video" loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+      <p class="lede">A third-person melee combat game inspired by <em>Elden Ring</em> and <em>Ghost of Tsushima</em>. I designed and built the systems below in Unreal Engine.</p>
+
+      <div class="feature-grid">
+        <article class="panel">
+          <h3>Combat component</h3>
+          <ul>
+            <li>Modular attack/defence Actor Component: light, heavy and charged attacks, block, parry, dodge and lock-on.</li>
+            <li>Works on any UE third-person character through retargeting.</li>
+            <li>Animation-driven hit registration with per-skeleton-part critical hits.</li>
+          </ul>
+        </article>
+        <article class="panel">
+          <h3>Stats layer</h3>
+          <ul>
+            <li>Health, Stamina, Stagger and Action stats.</li>
+            <li>Data tables for tuning.</li>
+          </ul>
+        </article>
+        <article class="panel panel-wide">
+          <h3>Enemy AI</h3>
+          <ul>
+            <li>Perception, plus state and action slots with action context.</li>
+            <li>A manager decides who presses the attack and who flanks.</li>
+            <li>Combat-sports-style movement: circling at different distances, strafing, and angled or direct approaches, with a cadence-based choice between circle, angle, strafe and charge.</li>
+            <li>Weighted-chance triggers for attack, defend and dodge.</li>
+            <li>EQS keeps enemies from bunching up. A pre-attack check stops them from hitting teammates.</li>
+          </ul>
+        </article>
+        <article class="panel">
+          <h3>Feel &amp; feedback</h3>
+          <ul>
+            <li>Diegetic health bar, damage numbers and a combo style meter.</li>
+            <li>Hit stop, VFX and material effects.</li>
+            <li>Purchased SFX wired to gameplay triggers.</li>
+          </ul>
+        </article>
+        <article class="panel">
+          <h3>UI &amp; flow</h3>
+          <ul>
+            <li>Main menu and pause/escape menu.</li>
+            <li>Narrator text-bubble system.</li>
+          </ul>
+        </article>
+      </div>
+
+      <a class="callout" href="https://www.linkedin.com/posts/krister-prestoy_gamedesign-systemsdesign-unrealengine-activity-7321566294716104706-lxLa" target="_blank" rel="noopener">
+        <span class="callout-num">679</span>
+        <span class="callout-text">reactions on my LinkedIn post about Winds of Valor <span aria-hidden="true">→</span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section-alt">
+    <div class="wrap">
+      <p class="eyebrow">More work</p>
+      <h2>Other projects</h2>
+      <div class="cards">
+        <a class="card" href="https://www.artstation.com/artwork/8bkD6O" target="_blank" rel="noopener">
+          <div class="thumb"><img src="img/battlescars.jpg" alt="Battlescars boss fight thumbnail" width="480" height="360" loading="lazy" decoding="async"></div>
+          <div class="card-body">
+            <h3>Battlescars</h3>
+            <p class="tags">Boss fight · Animation · AI</p>
+            <p>A boss fight with an animation blueprint, hitboxes driven by montage notifies, and a perception-based AI that switches combat branches based on health.</p>
+          </div>
+        </a>
+        <a class="card" href="https://www.artstation.com/artwork/PXyYAB" target="_blank" rel="noopener">
+          <div class="thumb"><img src="img/pokehunter.jpg" alt="Pokehunter gameplay thumbnail" width="960" height="540" loading="lazy" decoding="async"></div>
+          <div class="card-body">
+            <h3>Pokehunter</h3>
+            <p class="tags">2023 · Noroff · Group project</p>
+            <p>Final-year group game at Noroff. I built the inventory, abilities and crafting system.</p>
+          </div>
+        </a>
+        <a class="card" href="https://www.artstation.com/artwork/eRPBeD" target="_blank" rel="noopener">
+          <div class="thumb"><img src="img/beta-arcade.jpg" alt="Beta Arcade Module thumbnail" width="960" height="540" loading="lazy" decoding="async"></div>
+          <div class="card-body">
+            <h3>Beta Arcade Module</h3>
+            <p class="tags">2024 · Teesside</p>
+            <p>A combat showcase built for the Beta Arcade module at Teesside University.</p>
+          </div>
+        </a>
+        <a class="card" href="https://www.artstation.com/artwork/Jexwav" target="_blank" rel="noopener">
+          <div class="thumb"><img src="img/rehabisland.jpg" alt="RehabIsland screenshot" width="960" height="402" loading="lazy" decoding="async"></div>
+          <div class="card-body">
+            <h3>RehabIsland</h3>
+            <p class="tags">2022 · Noroff · Group project</p>
+            <p>A group game project made at Noroff.</p>
+          </div>
+        </a>
+      </div>
+      <p class="more"><a href="https://kriswiz.artstation.com" target="_blank" rel="noopener">See everything on ArtStation →</a></p>
+    </div>
+  </section>
+
+  <!-- 3D ART -->
+  <section id="art" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Modelling</p>
+      <h2>3D art</h2>
+      <!-- TODO: add renders to img/ and swap the .placeholder divs for <img> tags -->
+      <div class="cards cards-3">
+        <div class="card card-static">
+          <div class="thumb placeholder" role="img" aria-label="Claptrap render coming soon"><span>Renders coming soon</span></div>
+          <div class="card-body"><h3>Claptrap</h3><p class="tags">Character model</p></div>
+        </div>
+        <div class="card card-static">
+          <div class="thumb placeholder" role="img" aria-label="Werewolf render coming soon"><span>Renders coming soon</span></div>
+          <div class="card-body"><h3>Werewolf</h3><p class="tags">Character model</p></div>
+        </div>
+        <div class="card card-static">
+          <div class="thumb placeholder" role="img" aria-label="Metal Gear REX render coming soon"><span>Renders coming soon</span></div>
+          <div class="card-body"><h3>Metal Gear REX</h3><p class="tags">Mech model</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="wrap two-col">
+      <div>
+        <p class="eyebrow">Toolkit</p>
+        <h2>Skills</h2>
+        <ul class="chips">
+          <li>Unreal Engine 5 &amp; Blueprints</li>
+          <li>Gameplay &amp; combat systems</li>
+          <li>AI: perception, EQS, behaviour</li>
+          <li>UI &amp; menus</li>
+          <li>Maya</li>
+          <li>Blender</li>
+          <li>ZBrush</li>
+          <li>Substance Painter</li>
+        </ul>
+      </div>
+      <div>
+        <p class="eyebrow">Languages</p>
+        <h2>Languages</h2>
+        <ul class="chips">
+          <li>Norwegian <small>(native)</small></li>
+          <li>English</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Background</p>
+      <h2>Education</h2>
+      <ol class="timeline">
+        <li><span class="when">2024–2025</span><div><h3>BA (Hons) Games Design: First Class</h3><p>Teesside University</p></div></li>
+        <li><span class="when">2021–2023</span><div><h3>3D Spilldesign</h3><p>Noroff</p></div></li>
+        <li><span class="when">2013–2015</span><div><h3>3D Film</h3><p>Noroff</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt contact">
+    <div class="wrap">
+      <p class="eyebrow">Hiring?</p>
+      <h2>Let's talk</h2>
+      <p class="lede">I'm open to junior gameplay, technical design, generalist and 3D roles, remote or in Bergen.</p>
+      <div class="btns">
+        <a class="btn btn-primary" href="mailto:krister.prestoy@gmail.com">krister.prestoy@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/krister-prestoy" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">© <span id="year">2026</span> Krister Prestøy · Bergen, Norway</div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
