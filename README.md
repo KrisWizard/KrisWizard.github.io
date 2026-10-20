@@ -37,7 +37,6 @@ All asset paths are relative, so the site works at a user-site root and in a pro
 
 ## TODO
 
-- [ ] **CV PDF**: add e.g. `cv/Krister-Prestoy-CV.pdf` and point the hero `CV` button (`href="#"`, `data-todo="cv"`) at it.
 - [ ] **3D renders**: add Claptrap, Werewolf and Metal Gear REX renders to `img/` and replace the `.placeholder` divs in the 3D art section with `<img>` tags (include `width`/`height`, `loading="lazy"` and alt text).
 - [ ] **Playable build link**: add a link to a playable Winds of Valor build (itch.io or similar) in the Featured section.
 - [ ] Optional: point the project cards at dedicated pages or videos if you want them to go somewhere other than ArtStation.
